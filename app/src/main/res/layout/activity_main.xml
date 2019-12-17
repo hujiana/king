@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="选择进程"
+            android:id="@+id/SelectProcess"
+            />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="一键新机"
+                android:layout_weight="5"
+                android:id="@+id/NewSystem"
+                >
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="备用"
+                android:layout_weight="5"
+                >
+
+
+            </Button>
+
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
